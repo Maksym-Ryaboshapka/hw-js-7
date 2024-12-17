@@ -1,0 +1,9 @@
+<ul class="users">
+  {{#each users}}
+    <li class="users__item">
+      <h2 class="users__name">{{this.username}}</h2>
+      <p class="users__email">{{this.email}}</p>
+      <p class="users__password">{{this.password}}</p>
+    </li>
+    {{/each}}
+</ul>

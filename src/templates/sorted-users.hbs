@@ -1,0 +1,9 @@
+<ul class="sorted-users">
+  {{#each sortedUsers}}
+    <li class="sorted-users__item">
+      <h2 class="sorted-users__name">{{this.username}}</h2>
+      <p class="sorted-users__email">{{this.email}}</p>
+      <p class="sorted-users__password">{{this.password}}</p>
+    </li>
+    {{/each}}
+</ul>
